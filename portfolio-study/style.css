@@ -1,0 +1,137 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins';
+    color: white;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nome{
+    font-family: 'Poppins';
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    padding: 2rem;
+}
+
+nav{
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.8rem;
+}
+
+nav ul li a{
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover{
+    margin: 1rem;
+    border-bottom: 2px solid rgb(122, 122, 122);
+    transition: width .3s;
+}
+
+.eu{
+    width: 600px;
+    border-radius: 50rem;
+    border: 5px black outset;
+}
+
+h1{
+
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.sobre{
+    padding: 5rem;
+
+    font-size: 2rem;
+}
+
+.wrapper-hero{
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(12, 12, 12);
+}
+
+.web{
+    font-weight: bold;
+    font-size: 2.3rem;
+
+}
+
+.icon{
+    width: 50px;
+}
+
+.icons{
+    display: flex;
+    gap: 40px;
+    margin-top: 2rem;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.contact{
+    padding: 5rem;
+}
+
+.contato{
+    font-size: 3rem;
+}
+
+.listcontact{
+    padding: 0;
+    list-style-type: none;
+}
+
+.listcontact li{
+    font-size: 1.8rem;
+    padding: 1rem 0rem;
+}
+
+.list{
+    font-weight: bold;
+}
+
+.list1 {
+    position: relative;
+}
+
+.emailtext { 
+    position: absolute;
+    padding-left: 5px;
+}
+
+.list2 {
+    position: relative;
+}
+
+.telephonetext {
+    position: absolute;
+}
